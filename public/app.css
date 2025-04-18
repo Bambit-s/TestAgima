@@ -1,6 +1,7 @@
+
 body {
     min-width: 320px;
-
+    margin: 5px;
 }
 
 html,
@@ -14,6 +15,8 @@ body {
     margin-bottom: 5px;
 }
 
-.alert alert-error{
-    background-color: red;
+.alert-error{
+    --bs-alert-color: #51230f;
+    --bs-alert-bg: #f24444;
+    --bs-alert-border-color: #dbc1ba;
 }
